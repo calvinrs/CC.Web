@@ -39,6 +39,16 @@
                         content: '<i class="fa fa-lock"></i> Admin'
                     }
                 }
+            }, {
+                url: '/sessions',
+                config: {
+                    title: 'sessions',
+                    templateUrl: 'app/sessions/sessions.html',
+                    settings: {
+                        nav: 3,
+                        content: '<i class="fa fa-calendar"></i> Sessions'
+                    }
+                }
             }
         ];
     }
